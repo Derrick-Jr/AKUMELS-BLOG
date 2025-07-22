@@ -331,3 +331,43 @@ footer {
     margin-top: 10px;
   }
 }
+
+
+.footer-columns {
+    display: flex;
+    gap: 40px; /* space between columns */
+    justify-content: start; /* align items to the left */
+    flex-wrap: wrap; /* optional: make it responsive */
+}
+
+.footer-column {
+    flex: 1; /* allow them to take up equal space if needed */
+    min-width: 200px; /* control column width */
+}
+
+    .footer-column h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+    .footer-links li {
+        margin-bottom: 8px;
+    }
+
+    .footer-links a {
+        text-decoration: none;
+        color: #333;
+        transition: color 0.3s;
+    }
+
+        .footer-links a:hover {
+            color: #007BFF; /* highlight color on hover */
+        }
+
+
+
